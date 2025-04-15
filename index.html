@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flappy Crypto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- TonConnect SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@tonconnect/sdk@latest/dist/tonconnect-sdk.min.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="wallet-connect">
+            <button id="connectWallet">Connect TON Wallet</button>
+        </div>
+        <div class="score">Score: <span id="score">0</span></div>
+    </div>
+    <!-- Игровой скрипт -->
+    <script src="game.js"></script>
+</body>
+</html>
